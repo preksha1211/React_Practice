@@ -1,14 +1,15 @@
-
-import './App.css'
+import Products from './components/Products.jsx';
 
 function App() {
-  const [count, setCount] = useState(0)
+const skills = ["HTML", "CSS", "JavaScript", "React"];
+
 
   return (
-    <>
-     
+     <>
+    <Products skills={skills}/>
     </>
-  )
+    
+  );
 }
 
-export default App
+export default App;
